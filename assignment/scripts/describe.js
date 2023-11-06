@@ -132,11 +132,14 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+//the instructions state that colorOne is to be set to 'blue' it is set to 'red' right now so we would switch that
 let colorTwo = 'blue';
+//the instructions state that coloTwo is to be set to 'red' and it is currently set to 'blue' we will re-type that up
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //we need to add colorTwo to 'purple' in order to make the description correct
 }
 */
 
@@ -147,8 +150,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//we need to use let instead of const to make the time variable because the time variable doesn't have to be 4 all the time
 if (temp > 39 || time >= 4) {
+ //we also need to use &&(= and ) instead of ||(= or) to match the requirments
   console.log('throw away the food!');
 }
 */
@@ -162,7 +166,9 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  //switch the two variables around to (age >= minAge) to reach the requirements and to show that age will always have to be greater than or equal to minAge
   console.log('no entry');
+// from my understanding you want to set the true statement first and if if doesn't meet that requirement then move to the else statement so those two outputs should be switched
 } else {
   console.log('enter');
 }
