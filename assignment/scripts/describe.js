@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called name and set it to equal the string of 'Dane'
+// We check if the name is mary and if it was it would console log 'Hi, Mary'
+// But our name is Dane so it would then log the value 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +44,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set up the variable for secret and the value will be displayed once conditions are met
+// We then set up another variable for code equally the value of 123. Then we set up th econditions theat if the code is equal 
+// to 123 then secret will display 'super' and the code variable will also multiply itself by 2 making the new value to 246.
+//The next set of conditions is if code is greater than 250 secret will log as 'duper'. However because code only equals 246
+//when we console.log at the end secret will display as 'super'.
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we are setting up 3 variables and values at the begining. isStudent = true, age = 34 and zip =55407
+// we then set up conditons of if the sStudent is true and the zip is greater than 80000 the console will log You're a student on the west coast!
+// the next condition if the first is not met, is if the isStudent variable is false then the cosole will log What are your hobbies?
+// the next condition if the previous 2 have not been met, is if isStudent value is true then the console will log Welcome to Prime!
+// the final piece of code is if all the other conditions weren't met and it would display How about the weather? But what would display is Welcome to Prime!
 
 //CODE
 /*
